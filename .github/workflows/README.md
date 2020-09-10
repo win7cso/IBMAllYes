@@ -1,7 +1,8 @@
 
 # ibm_cf_restart-actions
 使用Github Actions定时重启IBM Cloud Foundry应用程序
-来自：https://github.com/peng4740/ibm-cf-restart-actions
+
+项目来自：https://github.com/peng4740/ibm-cf-restart-actions
 
 ## 使用之前，有几项准备工作
 1. IBMCloud的账号密码
