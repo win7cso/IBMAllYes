@@ -35,7 +35,7 @@
 
 
 
-#### 一键伪装代码
+#### 一键自动伪装代码
 
 ~~~~
 wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/w2r/IBMAllYes/master/install.sh && chmod +x install.sh  && ./install.sh
@@ -43,7 +43,7 @@ wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/w2r/
 
 
 
-#### CCChie代码手动伪装
+#### CCChieh代码手动伪装
 
 因为IBM加入代码审核，需要把v2ray伪装其他名字避过审核，下面提供手动修改教程教程
 
