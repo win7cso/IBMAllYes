@@ -1,6 +1,6 @@
 
 # ibm_cf_restart-actions
-使用Github Actions定时重启IBM Cloud Foundry应用程序（默认四天启动一次）
+使用Github Actions定时重启IBM Cloud Foundry应用程序（默认8天启动一次）
 
 项目来自：https://github.com/peng4740/ibm-cf-restart-actions
 
