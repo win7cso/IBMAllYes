@@ -65,7 +65,7 @@ mv v2ray  mjj
 cd ..
 # 修改Procfile文件，默认自动启动v2ray
 vi Procfile
-# 修改内容web: ./v2ray/v2ray换己伪装的名字（不要和我一样）
+# 修改内容web: ./v2ray/v2ray换成你伪装的名字（不要和我一样）
 # 输入i编辑，按esc然后输入:wq保存
 web: ./hostloc/mjj
 
