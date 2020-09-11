@@ -32,7 +32,7 @@
 
 
 
-#### 一键代码
+#### 一键伪装代码
 
 ~~~~
 wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/w2r/IBMAllYes/master/install.sh && chmod +x install.sh  && ./install.sh
@@ -40,14 +40,14 @@ wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/w2r/
 
 
 
-#### CCChie代码手动版
+#### CCChie代码手动伪装
 
-因为IBM加入代码审核，需要吧V2ray修改避过审核，下面提供手动教程
+因为IBM加入代码审核，需要把v2ray伪装其他名字避过审核，下面提供手动修改教程教程
 
 ~~~
 # 大佬一键安装代码
 wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/CCChieh/IBMYes/master/install.sh && chmod +x install.sh  && ./install.sh
-安装后会报错
+安装后会报错，不用理会
 
 # 以下操作均在IBMcloud控制台操作
 # 回到主目录
