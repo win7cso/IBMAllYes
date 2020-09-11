@@ -40,3 +40,37 @@ wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/w2r/
 
 
 
+#### CCChie代码手动版
+
+因为IBM加入代码审核，需要吧V2ray修改避过审核，下面提供手动教程
+
+~~~
+# 大佬一键安装代码
+wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/CCChieh/IBMYes/master/install.sh && chmod +x install.sh  && ./install.sh
+安装后会报错
+
+# 以下操作均在IBMcloud控制台操作
+# 回到主目录
+cd
+cd IBMYes/v2ray-cloudfoundry/
+# 重命v2ray文件夹，请自行修改名字
+mv v2ray/  hostloc
+# 重命名v2ray
+cd hostloc/
+mv v2ray  mjj
+# 返回上一层
+cd ..
+# 修改Procfile文件，默认自动启动v2ray
+vi Procfile
+# 修改内容web: ./v2ray/v2ray换己伪装的名字，比（不要和我一样）
+# 输入i编辑，按esc然后输入:wq保存
+web: ./hostloc/mjj
+
+# 重新push
+ibmcloud cf push 你应用名称
+# 测试是否成功
+打开域名，Bad Request，使用vmess链接要记得掉伪装路径
+~~~
+
+
+
