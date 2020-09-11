@@ -7,6 +7,7 @@
 1. 跳过IBM代码审核（修改v2ray名称以跳过代码审核，不知道能稳定多久，能快乐一天是一天）
 2. 容器环境请随意选择，不要对着go疯狂的撸，已测试大部分环境均适用（亲测Python支持除了tomcat之外所有环境，go测试了javapython go swift适用，其他没测试）
 3. 验证是否成功方式：域名/随机生成的websocker路径   显示Bad Requests就表示正常使用
+4. v2配置做了修改，增加websocker路径，vmsess链接里无需删除随机路径
 
 
 
